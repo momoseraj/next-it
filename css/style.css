@@ -1,0 +1,67 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+nav{
+    height: 120px;
+    padding: 0px 20px;
+    margin: 0;
+    position: relative;
+    bottom: -21px;;
+
+}
+.logo{
+    height: 68px;
+    width: 158px;
+    display: inline-block;
+}
+nav ul{
+    display: block;
+    float: right;
+    margin:0;
+
+}
+
+nav li{
+    display: inline-block;
+    padding: 25px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.itimg{
+    width: 100%;
+    height: auto;
+}
+
+.itp{
+    position: absolute;
+    background: #ff8100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.itp h3{
+    color: aliceblue;
+    font-size: 3em;
+}
+.itp p{
+color: aliceblue;
+font-size: 20px;
+}
+.itp a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border:2px solid white;
+    font-size: 20px;
+
+
+}
+
+

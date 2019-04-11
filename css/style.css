@@ -1,67 +1,103 @@
-body{
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 16px;
-    margin: 0;
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 16px;
+	margin: 0;
 }
-nav{
-    height: 120px;
-    padding: 0px 20px;
-    margin: 0;
-    position: relative;
-    bottom: -21px;;
 
-}
-.logo{
-    height: 68px;
-    width: 158px;
-    display: inline-block;
-}
-nav ul{
-    display: block;
-    float: right;
-    margin:0;
+nav {
+	height: 120px;
+	padding: 0 20px;
+	margin: 0;
+	position: relative;
+	bottom: -21px;;
 
 }
 
-nav li{
-    display: inline-block;
-    padding: 25px;
-    
-}
-nav a{
-    text-decoration: none;
-    color: black;
-
-}
-.itimg{
-    width: 100%;
-    height: auto;
+.logo {
+	height: 68px;
+	width: 158px;
+	display: inline-block;
 }
 
-.itp{
-    position: absolute;
-    background: #ff8100;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-}
-.itp h3{
-    color: aliceblue;
-    font-size: 3em;
-}
-.itp p{
-color: aliceblue;
-font-size: 20px;
-}
-.itp a{
-    text-decoration: none;
-    color: aliceblue;
-    padding: 10px;
-    border:2px solid white;
-    font-size: 20px;
-
+nav ul {
+	display: block;
+	float: right;
+	margin: 0;
 
 }
 
+nav li {
+	display: inline-block;
+	padding: 25px;
 
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.main-section {
+	position: relative;
+	height: 666px;
+}
+
+.hero-banner {
+	width: 100%;
+	display: block;
+	float: left;
+	height: 100%;
+}
+
+.heading-box {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	top: 0;
+	padding: 25px 60px 60px 25px;
+}
+
+.heading-box svg {
+	width: 800px;
+	position: absolute;
+	top: 0;
+	left: -200px;
+	z-index: 1;
+	height: 100%;
+}
+
+.heading-box svg path {
+	fill: #ff8100;
+}
+
+.heading-box h3, .heading-box h3 span, .heading-box p, .heading-box a {
+	z-index: 2;
+}
+
+.heading-box h3 {
+	color: aliceblue;
+	font-size: 80px;
+	width: 350px;
+	margin-bottom: 25px;
+}
+
+.heading-box h3 span {
+	text-transform: capitalize;
+}
+
+.heading-box p {
+	color: aliceblue;
+	font-size: 25px;
+	width: 350px;
+}
+
+.heading-box a {
+	text-decoration: none;
+	color: aliceblue;
+	padding: 10px;
+	border: 2px solid white;
+	font-size: 20px;
+}
